@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page - A FCC Challange</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav id="nav-bar" class="navbar">
+          <img
+            src="https://www.pngkey.com/png/full/193-1934397_color-transparent-logo-chartered-accountants-ireland.png"
+            alt="Circle Logo"
+            class="navbar-brand"
+            id="header-img"
+          />
+          <ul class="nav-menu">
+            <li><a href="#about" class="nav-link active">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="main">
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-left">
+              <h1 class="hero-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h1>
+              <p class="hero-desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                molestias.
+              </p>
+              <a href="#" class="hero-btn primary-btn">Learn More</a>
+            </div>
+            <div class="col-right">
+              <div class="video-container">
+                <iframe
+                  id="video"
+                  src="https://www.youtube.com/embed/HGSR3FDVkkQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  Newsletter  -->
+
+      <div class="newsletter" id="newsletter">
+        <div class="container newsletter-row">
+          <h2 class="newsletter-title">Signup to our daily newsletter!</h2>
+          <form
+            id="form"
+            class="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="GET"
+          >
+            <div class="form-group">
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                class="email"
+                id="email"
+                placeholder="Enter Your Email Here..."
+                required
+              />
+            </div>
+            <input type="submit" name="submit" id="submit" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+
+      <!--  About Section  -->
+
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about-row">
+            <div class="about-img-container">
+              <img
+                src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
+                alt="Businesss Meeting"
+              />
+            </div>
+            <div class="about-content">
+              <h2 class="about-title">Who we are?</h2>
+              <div class="about-desc">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  perferendis non, laboriosam nisi nam culpa, veritatis rem
+                  doloribus adipisci omnis, quam eligendi autem labore
+                  repudiandae cupiditate voluptate? Laboriosam, ea placeat
+                  eligendi voluptates facilis officiis! Praesentium architecto
+                  dicta doloremque consequuntur error dolorum facere sit! Labore
+                  cum minima cumque qui quia fuga! Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Hic perferendis non, laboriosam
+                  nisi nam culpa, veritatis rem doloribus adipisci omnis, quam
+                  eligendi autem labore repudiandae cupiditate voluptate?
+                </p>
+              </div>
+              <a href="#" class="about-btn primary-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="container">
+          <h2 class="services-title">Our Services</h2>
+          <div class="services-row">
+            <div class="services-col">
+              <article class="service-box">
+                <i class="fas fa-paint-brush"></i>
+                <h3 class="service-head">Web Designing</h3>
+                <p class="service-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dicta, molestias obcaecati! Quia deserunt quos iusto.
+                </p>
+                <a href="#" class="service-btn"
+                  >Read More <span><i class="fas fa-arrow-right"></i></span
+                ></a>
+              </article>
+            </div>
+            <div class="services-col">
+              <article class="service-box">
+                <i class="fas fa-laptop-code"></i>
+                <h3 class="service-head">Web Development</h3>
+                <p class="service-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dicta, molestias obcaecati! Quia deserunt quos iusto.
+                </p>
+                <a href="#" class="service-btn"
+                  >Read More <span><i class="fas fa-arrow-right"></i></span
+                ></a>
+              </article>
+            </div>
+            <div class="services-col">
+              <article class="service-box">
+                <i class="fas fa-desktop"></i>
+                <h3 class="service-head">WordPress Development</h3>
+                <p class="service-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dicta, molestias obcaecati! Quia deserunt quos iusto.
+                </p>
+                <a href="#" class="service-btn"
+                  >Read More <span><i class="fas fa-arrow-right"></i></span
+                ></a>
+              </article>
+            </div>
+            <div class="services-col">
+              <article class="service-box">
+                <i class="fas fa-shopping-cart"></i>
+                <h3 class="service-head">E-commerce Development</h3>
+                <p class="service-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dicta, molestias obcaecati! Quia deserunt quos iusto.
+                </p>
+                <a href="#" class="service-btn"
+                  >Read More <span><i class="fas fa-arrow-right"></i></span
+                ></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  Pricing  -->
+
+      <section id="pricing" class="pricing">
+        <div class="container">
+          <h2 class="pricing-title">Our Pricing</h2>
+          <div class="pricing-row">
+            <div class="pricing-col">
+              <article class="price-box">
+                <div class="price-box-head">
+                  <h3 class="price-box-plan">Basic</h3>
+                  <hr />
+                  <p class="price-box-value">$10.00<small>/ mon</small></p>
+                </div>
+                <div class="pricing-box-body">
+                  <ul class="pricing-box-menu">
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free Web Hosting
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free Domain Name
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free SSL
+                      Certificate
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Web Design 03
+                      Concept
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>03 Page Website
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>03 Revisions Only
+                    </li>
+                  </ul>
+                  <a href="#" class="price-box-btn">Buy Now</a>
+                </div>
+              </article>
+            </div>
+            <div class="pricing-col">
+              <article class="price-box">
+                <div class="price-box-head">
+                  <h3 class="price-box-plan">Standard</h3>
+                  <hr />
+                  <p class="price-box-value">$20.00<small>/ mon</small></p>
+                </div>
+                <div class="pricing-box-body">
+                  <ul class="pricing-box-menu">
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free Web Hosting
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free Domain Name
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free SSL
+                      Certificate
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Web Design 03
+                      Concept
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>03 Page Website
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>03 Revisions Only
+                    </li>
+                  </ul>
+                  <a href="#" class="price-box-btn">Buy Now</a>
+                </div>
+              </article>
+            </div>
+            <div class="pricing-col">
+              <article class="price-box">
+                <div class="price-box-head">
+                  <h3 class="price-box-plan">Premium</h3>
+                  <hr />
+                  <p class="price-box-value">$50.00<small>/ mon</small></p>
+                </div>
+                <div class="pricing-box-body">
+                  <ul class="pricing-box-menu">
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free Web Hosting
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free Domain Name
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Free SSL
+                      Certificate
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Web Design 05
+                      Concept
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>10-15 Pages
+                      Website
+                    </li>
+                    <li class="price-box-item">
+                      <span><i class="fas fa-check"></i></span>Unlimited
+                      Revisions Only
+                    </li>
+                  </ul>
+                  <a href="#" class="price-box-btn">Buy Now</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="footer-desc">Made with ❤️ by Umar Bashir Rather.</p>
+    </footer>
+  </body>
+</html>
